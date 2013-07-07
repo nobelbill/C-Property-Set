@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4FE071B1789229B007EB768 /* example.c in Sources */ = {isa = PBXBuildFile; fileRef = F4FE07171789229B007EB768 /* example.c */; };
-		F4FE071C1789229B007EB768 /* Property.c in Sources */ = {isa = PBXBuildFile; fileRef = F4FE07191789229B007EB768 /* Property.c */; };
+		F4FE07221789240E007EB768 /* example.c in Sources */ = {isa = PBXBuildFile; fileRef = F4FE071E1789240E007EB768 /* example.c */; };
+		F4FE07231789240E007EB768 /* Property.c in Sources */ = {isa = PBXBuildFile; fileRef = F4FE07201789240E007EB768 /* Property.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +25,9 @@
 
 /* Begin PBXFileReference section */
 		F4FE070717891314007EB768 /* PropertySet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PropertySet; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4FE07171789229B007EB768 /* example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = example.c; sourceTree = "<group>"; };
-		F4FE07191789229B007EB768 /* Property.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Property.c; sourceTree = "<group>"; };
-		F4FE071A1789229B007EB768 /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		F4FE071E1789240E007EB768 /* example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = example.c; sourceTree = "<group>"; };
+		F4FE07201789240E007EB768 /* Property.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Property.c; sourceTree = "<group>"; };
+		F4FE07211789240E007EB768 /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +44,8 @@
 		F4FE06FE17891314007EB768 = {
 			isa = PBXGroup;
 			children = (
-				F4FE07161789229B007EB768 /* example */,
-				F4FE07181789229B007EB768 /* source */,
+				F4FE071D1789240E007EB768 /* example */,
+				F4FE071F1789240E007EB768 /* source */,
 				F4FE070817891314007EB768 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,23 +58,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4FE07161789229B007EB768 /* example */ = {
+		F4FE071D1789240E007EB768 /* example */ = {
 			isa = PBXGroup;
 			children = (
-				F4FE07171789229B007EB768 /* example.c */,
+				F4FE071E1789240E007EB768 /* example.c */,
 			);
 			name = example;
-			path = ../example;
+			path = ../../example;
 			sourceTree = "<group>";
 		};
-		F4FE07181789229B007EB768 /* source */ = {
+		F4FE071F1789240E007EB768 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				F4FE07191789229B007EB768 /* Property.c */,
-				F4FE071A1789229B007EB768 /* Property.h */,
+				F4FE07201789240E007EB768 /* Property.c */,
+				F4FE07211789240E007EB768 /* Property.h */,
 			);
 			name = source;
-			path = ../source;
+			path = ../../source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4FE071B1789229B007EB768 /* example.c in Sources */,
-				F4FE071C1789229B007EB768 /* Property.c in Sources */,
+				F4FE07221789240E007EB768 /* example.c in Sources */,
+				F4FE07231789240E007EB768 /* Property.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +196,7 @@
 		F4FE071117891314007EB768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = ansi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -203,6 +204,7 @@
 		F4FE071217891314007EB768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = ansi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

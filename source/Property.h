@@ -14,7 +14,6 @@
 extern "C" {
 #endif
     
-    
 #define PROPERTY_VERSION_1_0 0
     
 #define PROPERTY_VERSION PROPERTY_VERSION_1_0
